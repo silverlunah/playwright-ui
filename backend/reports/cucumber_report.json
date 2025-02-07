@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Boilerplate",
+    "line": 2,
+    "id": "boilerplate",
+    "tags": [
+      {
+        "name": "@suite-1",
+        "line": 1
+      }
+    ],
+    "uri": "tests/features/boilerplate.feature",
+    "elements": [
+      {
+        "id": "boilerplate;boilerplate-fail",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Boilerplate Fail",
+        "tags": [
+          {
+            "name": "@suite-1",
+            "line": 1
+          },
+          {
+            "name": "@test-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the Google homepage",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for \"Playwright\"",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      },
+      {
+        "id": "boilerplate;boilerplate-pass",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Boilerplate Pass",
+        "tags": [
+          {
+            "name": "@suite-1",
+            "line": 1
+          },
+          {
+            "name": "@test-2",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I open the Google homepage",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

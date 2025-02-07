@@ -1,0 +1,11 @@
+{
+  "default": {
+    "require": [
+      "tests/step_definitions/*.js",
+      "tests/utils/hooks.js"
+    ],
+    "featurePaths": [
+      "tests/features/**/*.feature"
+    ]
+  }
+}
