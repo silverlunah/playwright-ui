@@ -7,6 +7,8 @@ services:
       - "3001:3001"
     volumes:
       - ./tests:/tests
+    networks:
+      - app-network
 
   frontend:
     build: ./frontend
@@ -14,3 +16,9 @@ services:
       - "5173:5173"
     depends_on:
       - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,22 +1,44 @@
 [
   {
-    "keyword": "Feature",
-    "name": "Boilerplate",
-    "line": 2,
-    "id": "boilerplate",
-    "tags": [
-      {
-        "name": "@suite-1",
-        "line": 1
-      }
-    ],
-    "uri": "tests/features/boilerplate.feature",
+    "description": "",
     "elements": [
       {
-        "id": "boilerplate;boilerplate-fail",
+        "description": "",
+        "id": "buzzify-login;verify-user-can-login-using-correct-details",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Boilerplate Fail",
+        "name": "Verify User Can Login Using Correct Details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156312332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am in Buzzify Login page",
+            "match": {
+              "location": "tests/step_definitions/LoginSteps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1210326916
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11783458
+            }
+          }
+        ],
         "tags": [
           {
             "name": "@suite-1",
@@ -25,35 +47,51 @@
           {
             "name": "@test-1",
             "line": 4
+          },
+          {
+            "name": "@smoke",
+            "line": 4
           }
         ],
-        "type": "scenario",
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "buzzify-login;placeholder-test-1",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Placeholder Test 1",
         "steps": [
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "I open the Google homepage",
+            "keyword": "Before",
+            "hidden": true,
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 162280249
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I search for \"Playwright\"",
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am in Buzzify Login page",
+            "match": {
+              "location": "tests/step_definitions/LoginSteps.js:3"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1218706833
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9362375
             }
           }
-        ]
-      },
-      {
-        "id": "boilerplate;boilerplate-pass",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "Boilerplate Pass",
+        ],
         "tags": [
           {
             "name": "@suite-1",
@@ -61,22 +99,238 @@
           },
           {
             "name": "@test-2",
-            "line": 9
+            "line": 8
           }
         ],
-        "type": "scenario",
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "buzzify-login;placeholder-test-2",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Placeholder Test 2",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157845832
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
-            "name": "I open the Google homepage",
+            "line": 14,
+            "name": "I am in Buzzify Login page",
+            "match": {
+              "location": "tests/step_definitions/LoginSteps.js:3"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1146721540
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9501124
             }
           }
-        ]
+        ],
+        "tags": [
+          {
+            "name": "@suite-1",
+            "line": 1
+          },
+          {
+            "name": "@test-3",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
       }
-    ]
+    ],
+    "id": "buzzify-login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Buzzify Login",
+    "tags": [
+      {
+        "name": "@suite-1",
+        "line": 1
+      }
+    ],
+    "uri": "tests/features/boilerplate.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "buzzify-register;verify-user-can-register-using-correct-details",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify User Can Register Using Correct Details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 155928542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am in Buzzify Login page",
+            "match": {
+              "location": "tests/step_definitions/LoginSteps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1160163958
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12226166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@suite-2",
+            "line": 1
+          },
+          {
+            "name": "@test-4",
+            "line": 4
+          },
+          {
+            "name": "@smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "buzzify-register;placeholder-test-3",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Placeholder Test 3",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157732791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am in Buzzify Login page",
+            "match": {
+              "location": "tests/step_definitions/LoginSteps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1255947249
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12111584
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@suite-2",
+            "line": 1
+          },
+          {
+            "name": "@test-5",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "buzzify-register;placeholder-test-4",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Placeholder Test 4",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159460167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am in Buzzify Login page",
+            "match": {
+              "location": "tests/step_definitions/LoginSteps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1204998792
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11454083
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@suite-2",
+            "line": 1
+          },
+          {
+            "name": "@test-6",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "buzzify-register",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Buzzify Register",
+    "tags": [
+      {
+        "name": "@suite-2",
+        "line": 1
+      }
+    ],
+    "uri": "tests/features/boilerplate2.feature"
   }
 ]

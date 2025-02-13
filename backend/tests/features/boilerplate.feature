@@ -1,12 +1,14 @@
 @suite-1
-Feature: Boilerplate
+Feature: Buzzify Login
 
-  @test-1
-  Scenario: Boilerplate Fail
-    Given I open the Google homepage
-    When I search for "Playwright"
-    Then I should see search results for "Playwright"
+  @test-1 @smoke
+  Scenario: Verify User Can Login Using Correct Details
+    Given I am in Buzzify Login page
 
   @test-2
-  Scenario: Boilerplate Pass
-    Given I open the Google homepage
+  Scenario: Placeholder Test 1
+    Given I am in Buzzify Login page
+
+  @test-3
+  Scenario: Placeholder Test 2
+    Given I fail this test
